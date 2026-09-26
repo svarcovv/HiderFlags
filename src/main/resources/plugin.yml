@@ -1,0 +1,16 @@
+name: HiderFlags
+version: '${version}'
+
+main: org.exampleD.hiderFlags.HiderFlags
+api-version: '1.21.4'
+load: POSTWORLD
+
+authors: [ SvarKa ]
+
+commands:
+  hidehand:
+    description: Скрывает флаги у предмета в руке.
+    permission: hiderflags.use
+  hideinv:
+    description: Скрывает флаги у всех предметов в инвентаре.
+    permission: hiderflags.use
