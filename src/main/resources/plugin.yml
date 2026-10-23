@@ -1,16 +1,24 @@
 name: HiderFlags
-version: '${version}'
+version: '${project.version}'
 
-main: org.exampleD.hiderFlags.HiderFlags
+main: dev.svarcovv.hiderflags.HiderFlags
 api-version: '1.21.4'
 load: POSTWORLD
 
-authors: [ SvarKa ]
+authors: [ svarcovv ]
+website: https://svarcovv.dev
 
 commands:
   hidehand:
     description: Скрывает флаги у предмета в руке.
     permission: hiderflags.use
+    usage: /hidehand
   hideinv:
     description: Скрывает флаги у всех предметов в инвентаре.
     permission: hiderflags.use
+    usage: /hideinv
+
+permissions:
+  hiderflags.use:
+    description: Позволяет скрывать флаги предметов.
+    default: op

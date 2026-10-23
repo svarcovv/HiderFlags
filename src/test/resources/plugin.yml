@@ -1,0 +1,5 @@
+name: HiderFlagsServerChecks
+version: '1'
+main: dev.svarcovv.hiderflags.item.ItemHiderServerChecks
+api-version: '1.21.4'
+depend: [HiderFlags]
